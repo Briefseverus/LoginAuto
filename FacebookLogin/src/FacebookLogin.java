@@ -46,6 +46,7 @@ public class FacebookLogin {
 				robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 				robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 				driver.get("https://www.facebook.com/");
+				//author:briefseverus
 				String email = formatter.formatCellValue(sheet.getRow(i).getCell(0));
 				String password = formatter.formatCellValue(sheet.getRow(i).getCell(1));
 				System.out.println("Login :" + email + " " + password);
@@ -110,6 +111,7 @@ public class FacebookLogin {
 			workbook.close();
 		} catch (Exception e) {
 			e.printStackTrace();
+			//author:briefseverus
 		}
 		driver.quit();
 	}
