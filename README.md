@@ -12,6 +12,6 @@ To deploy the project :
 3: Replace the Profile Chrome path with the ChromeProfile you want the program use
 4: Replace the path of exel file, cookie.txt and checkPoint.txt file.
 5: Identify the screen coordinates of 2 element not in the web page to simulator click to trigger it :D (1st place is Clear Cache Extension, 2st place is logout js function store as a bookmark, it kinda such because i haven't made this feature work in 100% code yet, so I still have to use an extension.It brings some inconvenience when you can't do other things while running the program) 
->>PLEASE MAKE SURE THE LINK OF CHROME PROFILE, YOU CAN CHECK IT BY GO TO "CHROME://VERSION", IT ANY EXCEPTION HAPPEN, KEEP MAKE SURE YOU IMPORT ALL THE LIB IN THE .SETTING FOLDER<<
+>>PLEASE MAKE SURE THE LINK OF CHROME PROFILE, YOU CAN CHECK IT BY GO TO "CHROME://VERSION", IF ANY EXCEPTION HAPPEN, KEEP MAKE SURE YOU IMPORT ALL THE LIB IN THE .SETTING FOLDER<<
 GOODLUCK ^^
 
